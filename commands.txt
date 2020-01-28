@@ -1,0 +1,38 @@
+#show mod | no-more
+show mod | no-more
+#show run | no-more
+show run | no-more
+#show int status | no-more
+show int status | no-more
+#sh ip interface brief | ex unas | no-more
+sh ip interface brief | ex unas | no-more
+#show logging | no-more
+show logging | no-more
+#show ip ospf nei | no-more
+show ip ospf nei | no-more
+#show ip route summary
+show ip route summary
+#show ip route | no-more
+show ip route | no-more
+#sh ip bgp sum | no-more
+sh ip bgp sum | no-more
+#sh ip bgp | no-more
+sh ip bgp | no-more
+#sh cdp nei | no-more
+sh cdp nei | no-more
+#sh lldp nei | no-more
+sh lldp nei | no-more
+#sh vrf
+sh vrf
+#sh ip bgp sum vrf pci
+sh ip bgp sum vrf pci
+#sh ip ospf nei vrf app
+sh ip ospf nei vrf app
+#sh ip route vrf pci | no-more
+sh ip route vrf pci | no-more
+#sh ip route vrf app | no-more
+sh ip route vrf app | no-more
+#show env power | no-more
+show env power | no-more
+#show env temp | no-more
+show env temp

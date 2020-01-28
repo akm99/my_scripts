@@ -11,6 +11,6 @@ print ("\nThe total power supplies installed are: {}\n".format(count))
 
 for line in file_open.splitlines():
     if 'N9K-PAC-3000W-B' in line and "Ok" in line:
-        print("The following supplies are in Ok status: {}".format(line[0]))
+        print("The following power supplies are in Ok status: Power Supply: {}".format(line[0]))
     elif 'N9K-PAC-3000W-B' in line and 'Ok' not in line:
-        print("!!!!The following supply needs to be CHECKED!!!!: {}".format(line[0]))
+        print("!!!!The following power supplies needs to be CHECKED!!!!: Power Supply: {}".format(line[0]))
