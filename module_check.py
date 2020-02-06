@@ -9,5 +9,7 @@ for line in readfile.splitlines():
         print ("The status of card {} is {}".format(line.split()[0],line.split()[-1]))
     elif "N9K-C9504-FM-E" in line and "4-slot Fabric Module" in line:
         print ("The status of card {} is {}".format(line.split()[0],line.split()[-1]))
+    elif "Online Diag Status" in line or "Pass" in line:
+        print (line)
     elif "logging" in line:
         break
