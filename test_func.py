@@ -1,5 +1,9 @@
-def multiply_num(x):
-    multiply = x*x
-    print (multiply)
+def findoddeven(x):
+    if x % 2 == 0:
+        print ("The number is even")
+    else:
+        print("The number is odd")
 
-multiply_num(5)
+
+findoddeven(5)
+findoddeven(20)
