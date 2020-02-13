@@ -1,0 +1,10 @@
+pdx.core001.svc.eng.wd  
+atl.core002.svc.eng.wd  
+pdx.agg01.svc.eng.wd  
+atl.agg01.svc.eng.wd  
+ams.agg02.svc.eng.wd  
+dub.tor01.svc.eng.wd  
+pls.tor02.svc.eng.wd  
+ams.fw01.svc.eng.wd   
+atl.fw02.svc.eng.wd  
+dub.cor001.svc.eng.wd  
