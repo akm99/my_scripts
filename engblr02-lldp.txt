@@ -1,0 +1,71 @@
+
+blr02.net.az1.eng.pdx.wd# show lldp nei | no-more
+  (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+  (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+Device ID            Local Intf      Hold-time  Capability  Port ID
+oob01-01.net.az1.eng.pdx.wd
+                     mgmt0           120        BR          Ethernet1/14
+core001.svc.eng.pdx.wd
+                     Eth1/1          120        BR          931
+core002.svc.eng.pdx.wd
+                     Eth1/2          120        BR          773
+efw01.net.az1.eng.pdx.wd
+                     Eth1/7          120        OR          ethernet2/7
+efw01.net.az1.eng.pdx.wd
+                     Eth1/9          120        OR          ethernet2/12
+sdngw01L.net.az1.eng.pdx.wd
+                     Eth1/17         120        BR          513
+sdngw02L.net.az1.eng.pdx.wd
+                     Eth1/18         120        BR          513
+tor01-02048.net.az1.eng.pdx.wd
+                     Eth1/26         120        BR          Ethernet1/50
+tor02-02048.net.az1.eng.pdx.wd
+                     Eth1/27         120        BR          Ethernet1/50
+core01.net.az1.eng.pdx.wd
+                     Eth2/1          120        BR          Ethernet1/34
+core02.net.az1.eng.pdx.wd
+                     Eth2/2          120        BR          Ethernet1/34
+core03.net.az1.eng.pdx.wd
+                     Eth2/3          120        BR          Ethernet1/34  re
+show
+core04.net.az1.eng.pdx.wd
+                     Eth2/4          120        BR          Ethernet1/34
+bls01-02.net.cfn1.eng.pdx.wd
+                     Eth2/5          120        BR          Ethernet1/29
+bls01-04.net.cfn1.eng.pdx.wd
+                     Eth2/6          120        BR          Ethernet1/29
+tor01.net.az1.eng.pdx.wd
+                     Eth2/9          120        BR          Ethernet1/52
+tor02.net.az1.eng.pdx.wd
+                     Eth2/10         120        BR          Ethernet1/52
+sdngw01.net.az1.eng.pdx.wd
+                     Eth2/15         120        BR          et-0/1/0
+sdngw01.net.az1.eng.pdx.wd
+                     Eth2/16         120        BR          et-0/1/1
+sdngw01.net.az1.eng.pdx.wd
+                     Eth2/17         120        BR          et-0/1/3
+sdngw01.net.az1.eng.pdx.wd
+                     Eth2/18         120        BR          et-0/1/4
+sdngw02.net.az1.eng.pdx.wd
+                     Eth2/19         120        BR          et-0/1/0
+sdngw02.net.az1.eng.pdx.wd
+                     Eth2/20         120        BR          et-0/1/1
+sdngw02.net.az1.eng.pdx.wd
+                     Eth2/21         120        BR          et-0/1/3
+sdngw02.net.az1.eng.pdx.wd
+                     Eth2/22         120        BR          et-0/1/4
+blr01.net.az1.eng.pdx.wd
+                     Eth2/23         120        BR          Ethernet2/23
+blr01.net.az1.eng.pdx.wd
+                     Eth2/24         120        BR          Ethernet2/24
+tor01.net.az1.eng.pdx.wd
+                     Eth2/29         120        BR          Ethernet1/50
+tor02.net.az1.eng.pdx.wd
+                     Eth2/30         120        BR          Ethernet1/50
+clb02e.net.region.eng.pdx.wd
+                     Eth2/31         120        BR          3.0
+clb02e.net.region.eng.pdx.wd
+                     Eth2/32         120        BR          4.0
+efw01.net.az1.eng.pdx.wd
+                     Eth2/33         120        OR          ethernet2/13
+Total entries displayed: 32

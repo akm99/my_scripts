@@ -4,6 +4,7 @@ with open("devicelist.txt") as f:
 
 
 sort_by_site = [ ]
+site_dict = {}
 sites = []
 
 for line in readfile.splitlines():
@@ -18,7 +19,9 @@ for site in sites:
    for line in readfile.splitlines():
         if site in line.split(".")[0]:
             sort_by_site.append(line)
+            site_dict[line] = site
 
-pprint (sort_by_site)
 
+#pprint (sort_by_site)
+pprint (site_dict)
         
