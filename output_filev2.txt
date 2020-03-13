@@ -48,7 +48,7 @@ Mod  MAC-Address(es)                         Serial-Num
 Mod  Online Diag Status
 ---  ------------------
 1    Pass
-2    Pass
+2    Fail
 3    Pass
 4    Pass
 22   Pass
