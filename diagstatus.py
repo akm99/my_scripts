@@ -8,5 +8,7 @@ for line in readfile.splitlines():
     if "Online Diag Status" in line:
         print (line)
 
-match = re.search(r'\d\d', readfile)
-pprint (match.group())
+#for line in readfile.splitlines():
+match = re.search(r'\w{4}$', readfile)
+pprint (match)
+pprint (match.group(0))

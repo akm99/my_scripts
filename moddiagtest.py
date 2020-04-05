@@ -1,4 +1,3 @@
-import re
 from pprint import pprint
 with open("output_filev2.txt") as f:
         s = f.read()

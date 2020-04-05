@@ -1,5 +1,5 @@
 from pprint import pprint
-routers = {
+d = {
     "rtr1" : {
                 "bgp_peers" : ["10.1.1.1","10.1.1.3"],
                 "device_type" : "juniper_junos"},
@@ -17,5 +17,9 @@ routers = {
 #pprint (routers["rtr1"].keys())
 #pprint ("The bgp peers for rtr1 are: {}".format(routers["rtr1"]["bgp_peers"]))
 
-for key,value in routers.items():
+for key,value in d.items():
     pprint((key,value))
+
+for key,value in d.items():
+    s = {k: d[k] for k in sorted(d, key=d.get)}
+    pprint(s)

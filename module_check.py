@@ -12,9 +12,4 @@ for line in readfile.splitlines():
     elif "logging" in line:
         break
 print ("\n")
-for line in readfile.splitlines():
-    if "Online Diag Status" in line or "Pass" in line:
-        print (line)
-    elif "logging" in line:
-        break
 
