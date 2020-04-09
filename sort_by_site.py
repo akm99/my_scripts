@@ -22,6 +22,6 @@ for site in sites:
             site_dict[line] = site
 
 
-#pprint (sort_by_site)
+pprint (sort_by_site)
 pprint (site_dict)
         
