@@ -1,0 +1,17 @@
+Vlan200              10.194.220.196  protocol-up/link-up/admin-up
+Vlan201              10.152.220.225  protocol-down/link-down/admin-up
+Vlan202              10.194.220.100  protocol-up/link-up/admin-up
+Vlan210              10.194.220.200  protocol-down/link-down/admin-up
+Vlan212              10.194.220.106  protocol-down/link-down/admin-up
+Vlan300              10.194.236.49   protocol-up/link-up/admin-up
+Vlan301              10.194.220.65   protocol-down/link-down/admin-down
+Lo0                  10.194.216.8    protocol-up/link-up/admin-up
+Eth1/1               10.194.220.64   protocol-up/link-up/admin-up
+Eth1/2               10.194.220.68   protocol-up/link-up/admin-up
+Eth1/5               10.194.220.80   protocol-down/link-down/admin-up
+Eth1/6               10.194.220.84   protocol-down/link-down/admin-up
+Eth2/1               10.194.220.0    protocol-up/link-up/admin-up
+Eth2/2               10.194.220.4    protocol-up/link-up/admin-up
+Eth2/3               10.194.220.8    protocol-up/link-up/admin-up
+Eth2/4               10.194.220.12   protocol-up/link-up/admin-u
+Vlan302              10.194.220.65   protocol-down/link-down/admin-down
