@@ -8,19 +8,17 @@ with open("shiproute-after") as f:
 
 before31 = set()
 for line in fileread1.splitlines():
-    if "10"  in line.split("."):
-        before31.add(line)
-    elif "7" in line.split("."):
-        before31.add(line)
-
+    if "ubest" in line:
+        before31.add(line.split()[0])
+#    elif "7" in line.split("."):
+#        before31.add(line)
 
 after31 = set()
 for line in fileread2.splitlines():
-    if "10"  in line.split("."):
-        after31.add(line)
-    elif "7" in line.split("."):        
-        after31.add(line)
-
+    if "ubest" in line:
+        after31.add(line.split()[0])
+#    elif "7" in line.split("."):        
+#        after31.add(line)
 
 delta = before31.difference(after31)
 

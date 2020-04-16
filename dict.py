@@ -12,9 +12,35 @@ routers = {
 }
 
 
-pprint (routers.keys())
-pprint (routers["rtr1"])
-pprint (routers["rtr1"].keys())
-pprint ("The bgp peers for rtr1 are: {}".format(routers["rtr1"]["bgp_peers"]))
+#pprint (routers.keys())
+#pprint (routers["rtr1"])
+#pprint (routers["rtr1"].keys())
+#pprint ("The bgp peers for rtr1 are: {}".format(routers["rtr1"]["bgp_peers"]))
 
 
+#for item in routers.items():
+   # print(item)
+
+
+#routers["rtr1"]["hostname"] = "pdx.rtr1"
+
+#for loop to get k,v from a dictionary inside a dictionary 
+#for k,v in routers.items():
+#   for k1,v1 in v.items():
+#        print(k1,v1)
+
+
+
+#Changing value of all dictionaries inside main dictionary, here we changed device_type from juniper to cisco
+for k,v in routers.items():
+    for k1,v1 in v.items():
+        v["device_type"] = "cisco"
+
+
+
+for k,v in routers.items():
+    for k1,v1 in v.items():
+        v["hostname"] = "host"
+
+for item in routers.items():
+    print(item)
