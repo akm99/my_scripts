@@ -1,9 +1,9 @@
 def findoddeven(x):
     if x % 2 == 0:
-        print ("The number is even")
+        return ("The number is even")
     else:
-        print("The number is odd")
+        return ("The number is odd")
 
 
-findoddeven(5)
-findoddeven(20)
+print(findoddeven(5))
+print(findoddeven(20))

@@ -10,8 +10,8 @@ def find_detail():
     print ("Race is {}".format(race))
     print ("Interest is {}".format(interest))
     
-def get_info():
-    find_detail()
+#def get_info():
+ #   find_detail()
 
-
-get_info()
+find_detail()
+#get_info()

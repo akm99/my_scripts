@@ -14,6 +14,3 @@ for line in readfile.splitlines():
     elif "N9K-X97160YC-EX" in line or "N9K-X9736C-FX" in line or "N9K-C9504-FM-E" in line and "detected" or "Powered-Up" in line:
         break
 
-for line in readfile.splitlines():
-    if  "N9K-X97160YC-EX" in line and "48x10/25G" in line and "ok" in line:
-        print (type(line))

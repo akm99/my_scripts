@@ -1,0 +1,50 @@
+blr01.net.az1.cust.ams.wd# show lldp nei | no-more
+Capability codes:
+  (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+  (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+Device ID            Local Intf      Hold-time  Capability  Port ID
+oob01-01.net.az1.cust.ams.wd
+                     mgmt0           120        BR          Gi1/0/13
+core001.svc.prod.ams.wd
+                     Eth1/1          120        BR          711
+core002.svc.prod.ams.wd
+                     Eth1/2          120        BR          618
+sdngw01.net.az1.cust.ams.wd
+                     Eth1/5          120        BR          512
+sdngw02.net.az1.cust.ams.wd
+                     Eth1/6          120        BR          512
+efw01.net.az1.cust.ams.wd
+                     Eth1/7          120        OR          ethernet1/7
+0090.fb56.aa10       Eth1/9          120                    ethernet1/12
+sdngw03.net.az1.cust.ams.wd
+                     Eth1/11         120        BR          512
+sdngw04.net.az1.cust.ams.wd
+                     Eth1/12         120        BR          512
+clb01d.net.az1.cust.ams.wd
+                     Eth1/13         120        BR          2.2
+clb01d.net.az1.cust.ams.wd
+                     Eth1/14         120        BR          2.1
+core01.net.az1.cust.ams.wd
+                     Eth2/1          120        BR          Ethernet1/33
+core02.net.az1.cust.ams.wd
+                     Eth2/2          120        BR          Ethernet1/33
+core03.net.az1.cust.ams.wd
+                     Eth2/3          120        BR          Ethernet1/33
+core04.net.az1.cust.ams.wd
+                     Eth2/4          120        BR          Ethernet1/33
+tor01.net.az1.cust.ams.wd
+                     Eth2/9          120        BR          Ethernet1/51
+tor02.net.az1.cust.ams.wd
+                     Eth2/10         120        BR          Ethernet1/51
+blr02.net.az1.cust.ams.wd
+                     Eth2/23         120        BR          Ethernet2/23
+blr02.net.az1.cust.ams.wd
+                     Eth2/24         120        BR          Ethernet2/24
+tor01.net.az1.cust.ams.wd
+                     Eth2/29         120        BR          Ethernet1/49
+tor02.net.az1.cust.ams.wd
+                     Eth2/30         120        BR          Ethernet1/49
+efw01.net.az1.cust.ams.wd
+                     Eth2/33         120        OR          ethernet1/13
+Total entries displayed: 22
+

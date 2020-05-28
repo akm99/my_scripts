@@ -14,14 +14,13 @@ for line in readfile.splitlines():
 
 sites = list(set(sites)) 
 
-
 for site in sites:
    for line in readfile.splitlines():
-        if site in line.split(".")[0]:
+        if site in line:
             sort_by_site.append(line)
             site_dict[line] = site
 
 
-pprint (sort_by_site)
+#pprint (sort_by_site)
 pprint (site_dict)
         

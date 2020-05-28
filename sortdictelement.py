@@ -13,6 +13,7 @@ int_traffic_list = [
 { "intid" : "eth2", "traffic" : "300kb"},
 { "intid" : "eth3", "traffic" : "400kb"}
 ]
+
 print (sorted(int_traffic_list, key = lambda i: i['traffic']))
 
 int_traffic_dict = { 
@@ -22,5 +23,4 @@ int_traffic_dict = {
 }
 
 
-print (sorted(int_traffic_dict))
-
+print(sorted(int_traffic_dict,reverse=True))

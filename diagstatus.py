@@ -11,4 +11,3 @@ for line in readfile.splitlines():
 #for line in readfile.splitlines():
 match = re.search(r'\w{4}$', readfile)
 pprint (match)
-pprint (match.group(0))
